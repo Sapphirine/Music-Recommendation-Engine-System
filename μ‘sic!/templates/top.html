@@ -1,0 +1,296 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Music Search Engine</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Lavish Plot Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../static/css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="../static/css/flexslider.css" type="text/css" media="screen" />
+<link href="../static/css/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/css/lightbox.css">
+<link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+<!--//fonts-->
+ <!--autocomplete-->   
+    <link href = "../static/css/easy-autocomplete.min.css" rel="stylesheet" type="text/css">
+    <link href = "../static/css/easy-autocomplete.themes.css" rel="stylesheet" type="text/css">
+    <script src="../static/js/jquery-1.11.2.min.js"></script>
+    
+    <script src="../static/js/jquery.easy-autocomplete.min.js" type="text/javascript"></script>
+<!--//autocomplete-->
+    
+    <script type="text/javascript" src="../static/js/top.js"></script>
+</head>
+    
+<body>
+<!--banner start here-->
+<div class="banner" id="home">
+<div class="agileinfo-dot" id = "agileinfo-dot">
+   <div class="header" id = "header">
+		   <div class="header-main">
+		   	 <div class="container">
+			<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="#">Music Engine</a></h1>
+					</div>
+					<!-- navbar-header -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+								<li class="scroll hvr-underline-from-center"><a href="" id = 'top'>Home</a></li>
+								<li><a class="scroll hvr-underline-from-center" href="" id = 'cart'>Music Cart</a></li>
+								<li><a class="scroll hvr-underline-from-center" id='recommend' href="">Recommends!</a></li>
+                            <li><a class="scroll hvr-underline-from-center" href="" id = 'about'>About You</a></li>
+								<li><a class="scroll hvr-underline-from-center" href="" id = 'logout'>Log Out</a></li>
+								
+						  </ul>
+
+					</div>
+					<div class="clearfix"> </div>	
+				</nav>
+
+
+			 <div class="clearfix"> </div>
+		   </div>
+		   </div>
+<div class="container" id = "container">
+		   <div class="banner-bottom" id = "banner-bottom">
+		   	   <section class="slider">
+				 <div class="flexslider">
+					<ul class="slides">
+					  <li>
+					  	<div class="banner-bottom-text">
+					  			<h3>Discover Favourite Music!</h3>
+						   	   <p>Type your music here</p> 	
+						  
+					 	</div>
+					  </li>
+					  <li>
+					  	<div class="banner-bottom-text">
+					  		<h3>Analyze Music by Big Data!</h3>
+						   	   <p>Recommend new music for you according to big data</p> 	
+					 	</div>
+					  </li>
+					  <li>
+					  	<div class="banner-bottom-text">
+					  		<h3>Visualize your music Style! </h3>
+						   	   <p>Discover your unique music style</p> 	
+					 	</div>
+					  </li>				  
+				    </ul>
+				 </div>
+				 <div class="clearfix"> </div>
+		      </section>
+			<div class="search-agileits" id = "search-agileits">			
+				<form action="index.html" method="post" id="form">
+<!--					<input type="search" name="Search" placeholder="Search Your Music" required="" />-->
+                    <input type="search" name="Search" placeholder="Search Your Music" id="template-desc" size="10" /> <input id='damnit' type="submit" value="SEARCH !" style="float:right">
+					
+				</form>
+                
+<!--                    ,"genres":"Adventure|Animation|Children|Comedy|Fantasy"-->
+
+		<script>	
+
+		var options = {
+			data: [
+{"movieId":"1","title":"We Are Giants"},
+{"movieId":"2","title":"Across The Universe"},
+{"movieId":"3","title":"Youve Got To Hide Your Love Away","genres":"Comedy|Romance"},
+{"movieId":"4","title":"SHERO","genres":"Comedy|Drama|Romance"},
+{"movieId":"5","title":"How Deep Is Your Love","genres":"Comedy"},
+{"movieId":"6","title":"Let Me Love You","genres":"Action|Crime|Thriller"},
+{"movieId":"7","title":"Good Grief","genres":"Comedy|Romance"},
+{"movieId":"8","title":"Roses","genres":"Adventure|Children"},
+{"movieId":"9","title":"One Day","genres":"Action"},
+{"movieId":"10","title":"Points Of Athrty","genres":"Action|Adventure|Thriller"},
+{"movieId":"11","title":"Adventure Of A Lifetime (Radio Edit)","genres":"Comedy|Drama|Romance"},
+{"movieId":"12","title":"Gun","genres":"Comedy|Horror"},
+{"movieId":"13","title":"The Good Lie","genres":"Adventure|Animation|Children"},
+{"movieId":"14","title":"Thats All Right","genres":"Drama"},
+{"movieId":"15","title":"High by the Beach","genres":"Action|Adventure|Romance"},
+{"movieId":"16","title":"The One","genres":"Crime|Drama"},
+{"movieId":"17","title":"The Moon Hangs in the Sky Like Nothing Hangs in the Sky","genres":"Drama|Romance"},
+{"movieId":"18","title":"Drown","genres":"Comedy"},
+{"movieId":"19","title":"Brand New Day","genres":"Comedy"},
+{"movieId":"20","title":"Bad Blood","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"21","title":"Bag It Up","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"22","title":"Hell and Back","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"23","title":"Say Please","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"24","title":"Roots| Rock| Reggae","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"25","title":"Head| Shoulders| Knees and Toes","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"26","title":"The Wheels on the Bus (Nursery Rhyme)","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"27","title":"Chicken Soup With Rice","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"28","title":"You're Not Ferb","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"29","title":"Positivity","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"30","title":"The Scarecrow Song","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"31","title":"Under the Stars","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"32","title":"Weary","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"33","title":"Starboy","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"34","title":"Over The Edge","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"35","title":"Toy Soldier","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"36","title":"U Know Whats Up","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"37","title":"All At Once","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"38","title":"Rainy Days","genres":"Action|Comedy|Crime|Drama|Thriller"}, 
+                {"movieId":"39","title":"In the Spring","genres":"Action|Comedy|Crime|Drama|Thriller"},
+                
+					],
+            //url : "movie.json",
+
+			getValue: "title",
+
+			list: {
+                maxNumberOfElements: 8,
+				match: {
+					enabled: true
+				}
+			},
+            
+//       		template: {
+//				type: "description",
+//				fields: {
+//                    description: "genres"
+//                }
+//			}
+            
+		};
+
+		$("#template-desc").easyAutocomplete(options);
+
+		</script>
+                
+                
+                
+                
+                
+			</div>	
+			<div class="thim-click-to-bottom">
+				<a href="#services" class="scroll">
+					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</a>
+			</div>
+			
+		   </div>
+		</div>
+	</div>
+</div>
+</div>
+<!--banner end here-->
+<!--banner bottom-->
+    
+    
+   
+    
+<div class="banner-btm-w3layouts" id="services">
+	<div class="container">
+	<div class="tittle-agileinfo">
+		<h3><span>Songs</span> in our database </h3>
+		
+	</div>
+
+        <div class="tittle-tableinfo">
+        <table class="table t1">
+    
+    <thead style="font-size: 25px">
+      <tr>
+          <th>Song</th>
+        <th>Artist</th>
+        <th>Composer</th>
+        <th>Lyricist</th>
+          <th>Play</th>
+          <th>Add to Cart</th>
+      </tr>
+    </thead>
+            
+            
+    <tbody style="font-size: 22px">
+    </tbody>
+            
+  </table>
+
+      
+     </div> 
+    <br></br>  
+<br></br>  
+<br></br>  
+<br></br>  
+<br></br>  
+    
+ 
+<!-- //smooth scrolling -->
+<script src="../static/js/bootstrap.js"></script>
+<script type="text/javascript" src="../static/js/jquery-2.1.4.min.js"></script>
+
+
+<!-- FlexSlider -->
+				  <script defer src="../static/js/jquery.flexslider.js"></script>
+				  <script type="text/javascript">
+					$(function(){				 
+					});
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+<!-- FlexSlider -->
+<script src="../static/js/lightbox-plus-jquery.min.js"> </script>
+<!-- required-js-files-->
+	<script src="../static/js/owl.carousel.js"></script>
+<script src="../static/js/slideshow.min.js"></script>
+<script src="../static/js/launcher.js"></script>
+<script type="text/javascript" src="../static/js/move-top.js"></script>
+<script type="text/javascript" src="../static/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+<script>
+			$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
+			items :3,
+			itemsDesktop : [768,2],
+			itemsDesktopSmall : [414,2],
+			lazyLoad : true,
+			autoPlay : true,
+			navigation :true,
+			navigationText :  false,
+			pagination : true,
+			});
+			});
+			</script>
+</body>
+</html>

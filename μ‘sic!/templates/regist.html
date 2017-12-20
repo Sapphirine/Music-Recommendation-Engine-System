@@ -1,0 +1,159 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Music Search Engine</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Lavish Plot Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../static/css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="../static/css/flexslider.css" type="text/css" media="screen" />
+<link href="../static/css/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/css/lightbox.css">
+<link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+<!--//fonts-->
+ <!--autocomplete-->   
+    <link href = "../static/css/easy-autocomplete.min.css" rel="stylesheet" type="text/css">
+    <link href = "../static/css/easy-autocomplete.themes.css" rel="stylesheet" type="text/css">
+    <script src="../static/js/jquery-1.11.2.min.js"></script>
+    
+    <script src="../static/js/jquery.easy-autocomplete.min.js" type="text/javascript"></script>
+<!--//autocomplete-->
+    <script type="text/javascript" src="../static/js/regist.js"></script>
+</head>
+    
+<body>
+<!--banner start here-->
+<div class="banner" id="home">
+<div class="agileinfo-dot" id = "agileinfo-dot">
+   <div class="header" id = "header">
+		   <div class="header-main">
+		   	 <div class="container">
+			<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="index.html">Music Engine</a></h1>
+					</div>
+					<!-- navbar-header -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+								<li class="scroll hvr-underline-from-center"><a href="{{url_for('login')}}">Log in</a></li>
+								<li><a class="scroll hvr-underline-from-center" href="{{url_for('regist')}}">Register</a></li>
+
+								
+						  </ul>
+
+					</div>
+					<div class="clearfix"> </div>	
+				</nav>
+
+
+			 <div class="clearfix"> </div>
+		   </div>
+		   </div>
+<div class="container" id = "container">
+		   <div class="banner-bottom" id = "banner-bottom">
+		   	   <section class="slider">
+				 <div class="flexslider">
+					<ul class="slides">
+					  <li>
+					  	<div class="banner-bottom-text">
+					  			<h3>Register</h3>
+						   	   <p>Type your information here</p> 	
+						  
+					 	</div>
+					  </li>
+					  
+				  
+				    </ul>
+				 </div>
+				 <div class="clearfix"> </div>
+		      </section>
+			<div class="search-agileits" id = "search-agileits">			
+				
+<!--					<input type="search" name="Search" placeholder="Search Your Music" required="" />--><form action="" method="POST">
+                    <input type="search" name="usr" placeholder="Name" id="usr" size="10" /> 
+                    <br></br>  
+                    <input type="search" name="password" placeholder="Password" id="password" size="10" />
+                <br></br>  
+                    <input type="search" name="password2" placeholder="Type Password again" id="password2" size="10" />
+               <br></br>  
+                    <input type="search" name="gender" placeholder="Gender(Please type 0 for female, 1 or male)" id="gender" size="10" />
+     <br></br>
+                    <input type="search" name="age" placeholder="Age" id="age" size="10" /> 
+       <br></br>
+                    <input type="search" name="city" placeholder="City Number(Please type 1-22 here)" id="city" size="10" /> 
+    <br></br>
+    
+    
+                  <input id='damnit' type="submit" value="Register" style="float:right">
+    <br></br>
+    
+    </form>
+       </div>     			
+				</form>
+			</div>	
+			
+			
+		</div>
+	</div>
+</div>
+</div>
+
+
+<!-- FlexSlider -->
+				  <script defer src="../static/js/jquery.flexslider.js"></script>
+				  <script type="text/javascript">
+					$(function(){				 
+					});
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+							
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+<script>
+			$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
+			items :3,
+			itemsDesktop : [768,2],
+			itemsDesktopSmall : [414,2],
+			lazyLoad : true,
+			autoPlay : true,
+			navigation :true,
+			navigationText :  false,
+			pagination : true,
+			});
+			});
+			</script>
+</body>
+</html>
